@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Demo Event ",
+    "description": "This event is created by Mann Shah only for demo purpose",
+    "date": "2025-11-21",
+    "type": "event",
+    "createdAt": "2025-11-20T14:01:57.683Z"
+  },
+  {
+    "id": 2,
+    "title": "Notice",
+    "description": "This is the notice about appearing in the viva on time at 10'o clock",
+    "date": "2025-11-21",
+    "type": "event",
+    "createdAt": "2025-11-20T14:39:04.852Z"
+  },
+  {
+    "id": 3,
+    "title": "NEW ",
+    "description": "Nothing",
+    "date": "2025-11-28",
+    "type": "event",
+    "createdAt": "2025-11-20T16:50:35.986Z"
+  }
+]

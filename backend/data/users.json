@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Shah Mann Paragbhai ",
+    "prn": "1234567890",
+    "type": "Student",
+    "email": "mannshah2405@gmail.com",
+    "className": "CSE-1",
+    "password": "mann@2405",
+    "createdAt": "2025-11-20T13:58:22.877Z"
+  },
+  {
+    "id": 2,
+    "name": "Patel Dhruv",
+    "prn": "2234567890",
+    "type": "Admin",
+    "email": "mann@gmail.com",
+    "className": "Admin",
+    "password": "dhruv@2605",
+    "createdAt": "2025-11-20T14:00:51.289Z"
+  },
+  {
+    "id": 3,
+    "name": "Patel Kirtan RajeshKumar",
+    "prn": "1234567891",
+    "type": "Student",
+    "email": "kirtan@gmail.com",
+    "className": "CSE-2",
+    "password": "kirtan@123",
+    "createdAt": "2025-11-20T14:18:05.830Z"
+  },
+  {
+    "id": 4,
+    "name": "Kavya Patel",
+    "prn": "1234567892",
+    "type": "Student",
+    "email": "kavya@gmail.com",
+    "className": "CSE-3",
+    "password": "kavya@123",
+    "createdAt": "2025-11-20T16:47:46.933Z"
+  }
+]

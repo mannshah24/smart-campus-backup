@@ -1,0 +1,121 @@
+{
+  "raw_submissions": [
+    {
+      "prn": "1234567890",
+      "name": "Shah Mann Paragbhai ",
+      "className": "CSE-1",
+      "cgpa": 9,
+      "priorities": [
+        {
+          "subject": "Blockchain Technology",
+          "priority": 1
+        },
+        {
+          "subject": "Machine Learning",
+          "priority": 2
+        },
+        {
+          "subject": "Cyber Security",
+          "priority": 3
+        },
+        {
+          "subject": "Cloud Computing",
+          "priority": 4
+        },
+        {
+          "subject": "IoT Applications",
+          "priority": 5
+        }
+      ],
+      "submittedAt": "2025-11-20T13:59:18.137Z"
+    },
+    {
+      "prn": "1234567891",
+      "name": "Patel Kirtan RajeshKumar",
+      "className": "CSE-2",
+      "cgpa": 8,
+      "priorities": [
+        {
+          "subject": "Cyber Security",
+          "priority": 1
+        },
+        {
+          "subject": "Cloud Computing",
+          "priority": 2
+        },
+        {
+          "subject": "Machine Learning",
+          "priority": 3
+        },
+        {
+          "subject": "IoT Applications",
+          "priority": 4
+        },
+        {
+          "subject": "Data Science",
+          "priority": 5
+        }
+      ],
+      "submittedAt": "2025-11-20T14:19:24.555Z"
+    },
+    {
+      "prn": "1234567892",
+      "name": "Kavya Patel",
+      "className": "CSE-3",
+      "cgpa": 9,
+      "priorities": [
+        {
+          "subject": "Mobile App Development",
+          "priority": 1
+        },
+        {
+          "subject": "IoT Applications",
+          "priority": 2
+        },
+        {
+          "subject": "Cyber Security",
+          "priority": 3
+        },
+        {
+          "subject": "Data Science",
+          "priority": 4
+        },
+        {
+          "subject": "Cloud Computing",
+          "priority": 5
+        }
+      ],
+      "submittedAt": "2025-11-20T16:48:28.907Z",
+      "updatedAt": "2025-11-20T16:48:28.907Z"
+    }
+  ],
+  "final_allocation": [
+    {
+      "prn": "1234567890",
+      "name": "Shah Mann Paragbhai ",
+      "className": "CSE-1",
+      "cgpa": 9,
+      "allocatedSubject": "Blockchain Technology",
+      "priority": 1,
+      "allocatedAt": "2025-11-20T16:50:59.065Z"
+    },
+    {
+      "prn": "1234567892",
+      "name": "Kavya Patel",
+      "className": "CSE-3",
+      "cgpa": 9,
+      "allocatedSubject": "Mobile App Development",
+      "priority": 1,
+      "allocatedAt": "2025-11-20T16:50:59.065Z"
+    },
+    {
+      "prn": "1234567891",
+      "name": "Patel Kirtan RajeshKumar",
+      "className": "CSE-2",
+      "cgpa": 8,
+      "allocatedSubject": "Cyber Security",
+      "priority": 1,
+      "allocatedAt": "2025-11-20T16:50:59.065Z"
+    }
+  ]
+}

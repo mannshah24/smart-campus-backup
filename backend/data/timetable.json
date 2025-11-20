@@ -1,0 +1,422 @@
+[
+  {
+    "className": "CSE-3",
+    "schedule": [
+      {
+        "day": "Monday",
+        "periods": [
+          {
+            "time": "9:00-10:00",
+            "subject": "BWP",
+            "teacher": "Vilas Ma'am",
+            "room": "Room 101"
+          },
+          {
+            "time": "10:00-11:00",
+            "subject": "BWP",
+            "teacher": "Vilas Ma'am",
+            "room": "Room 102"
+          },
+          {
+            "time": "11:15-12:15",
+            "subject": "BWP",
+            "teacher": "Vilas Ma'am",
+            "room": "Room 103"
+          },
+          {
+            "time": "12:15-1:15",
+            "subject": "BWP",
+            "teacher": "Vilas Ma'am",
+            "room": "Room 104"
+          },
+          {
+            "time": "2:00-3:00",
+            "subject": "BWP",
+            "teacher": "Vilas Ma'am",
+            "room": "Room 105"
+          },
+          {
+            "time": "3:00-4:00",
+            "subject": "BWP",
+            "teacher": "Vilas Ma'am",
+            "room": "Room 106"
+          }
+        ]
+      },
+      {
+        "day": "Tuesday",
+        "periods": [
+          {
+            "time": "9:00-10:00",
+            "subject": "BWP",
+            "teacher": "Vilas Ma'am",
+            "room": "Room 101"
+          },
+          {
+            "time": "10:00-11:00",
+            "subject": "BWP",
+            "teacher": "Vilas Ma'am",
+            "room": "Room 102"
+          },
+          {
+            "time": "11:15-12:15",
+            "subject": "BWP",
+            "teacher": "Vilas Ma'am",
+            "room": "Room 103"
+          },
+          {
+            "time": "12:15-1:15",
+            "subject": "BWP",
+            "teacher": "Vilas Ma'am",
+            "room": "Room 104"
+          },
+          {
+            "time": "2:00-3:00",
+            "subject": "BWP",
+            "teacher": "Vilas Ma'am",
+            "room": "Room 105"
+          },
+          {
+            "time": "3:00-4:00",
+            "subject": "BWP",
+            "teacher": "Vilas Ma'am",
+            "room": "Room 106"
+          }
+        ]
+      },
+      {
+        "day": "Wednesday",
+        "periods": [
+          {
+            "time": "9:00-10:00",
+            "subject": "BWP",
+            "teacher": "Vilas Ma'am",
+            "room": "Room 101"
+          },
+          {
+            "time": "10:00-11:00",
+            "subject": "BWP",
+            "teacher": "Vilas Ma'am",
+            "room": "Room 102"
+          },
+          {
+            "time": "11:15-12:15",
+            "subject": "BWP",
+            "teacher": "Vilas Ma'am",
+            "room": "Room 103"
+          },
+          {
+            "time": "12:15-1:15",
+            "subject": "BWP",
+            "teacher": "Vilas Ma'am",
+            "room": "Room 104"
+          },
+          {
+            "time": "2:00-3:00",
+            "subject": "BWP",
+            "teacher": "Vilas Ma'am",
+            "room": "Room 105"
+          },
+          {
+            "time": "3:00-4:00",
+            "subject": "BWP",
+            "teacher": "Vilas Ma'am",
+            "room": "Room 106"
+          }
+        ]
+      },
+      {
+        "day": "Thursday",
+        "periods": [
+          {
+            "time": "9:00-10:00",
+            "subject": "BWP",
+            "teacher": "Vilas Ma'am",
+            "room": "Room 101"
+          },
+          {
+            "time": "10:00-11:00",
+            "subject": "BWP",
+            "teacher": "Vilas Ma'am",
+            "room": "Room 102"
+          },
+          {
+            "time": "11:15-12:15",
+            "subject": "BWP",
+            "teacher": "Vilas Ma'am",
+            "room": "Room 103"
+          },
+          {
+            "time": "12:15-1:15",
+            "subject": "BWP",
+            "teacher": "Vilas Ma'am",
+            "room": "Room 104"
+          },
+          {
+            "time": "2:00-3:00",
+            "subject": "BWP",
+            "teacher": "Vilas Ma'am",
+            "room": "Room 105"
+          },
+          {
+            "time": "3:00-4:00",
+            "subject": "BWP",
+            "teacher": "Vilas Ma'am",
+            "room": "Room 106"
+          }
+        ]
+      },
+      {
+        "day": "Friday",
+        "periods": [
+          {
+            "time": "9:00-10:00",
+            "subject": "BWP",
+            "teacher": "Vilas Ma'am",
+            "room": "Room 101"
+          },
+          {
+            "time": "10:00-11:00",
+            "subject": "BWP",
+            "teacher": "Vilas Ma'am",
+            "room": "Room 102"
+          },
+          {
+            "time": "11:15-12:15",
+            "subject": "BWP",
+            "teacher": "Vilas Ma'am",
+            "room": "Room 103"
+          },
+          {
+            "time": "12:15-1:15",
+            "subject": "BWP",
+            "teacher": "Vilas Ma'am",
+            "room": "Room 104"
+          },
+          {
+            "time": "2:00-3:00",
+            "subject": "BWP",
+            "teacher": "Vilas Ma'am",
+            "room": "Room 105"
+          },
+          {
+            "time": "3:00-4:00",
+            "subject": "BWP",
+            "teacher": "Vilas Ma'am",
+            "room": "Room 106"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "className": "CSE-4",
+    "schedule": [
+      {
+        "day": "Monday",
+        "periods": [
+          {
+            "time": "9:00-10:00",
+            "subject": "CO",
+            "teacher": "Apurva Sir",
+            "room": "Room 101"
+          },
+          {
+            "time": "10:00-11:00",
+            "subject": "CO",
+            "teacher": "Apurva Sir",
+            "room": "Room 102"
+          },
+          {
+            "time": "11:15-12:15",
+            "subject": "CO",
+            "teacher": "Apurva Sir",
+            "room": "Room 103"
+          },
+          {
+            "time": "12:15-1:15",
+            "subject": "CO",
+            "teacher": "Apurva Sir",
+            "room": "Room 104"
+          },
+          {
+            "time": "2:00-3:00",
+            "subject": "CO",
+            "teacher": "Apurva Sir",
+            "room": "Room 105"
+          },
+          {
+            "time": "3:00-4:00",
+            "subject": "CO",
+            "teacher": "Apurva Sir",
+            "room": "Room 106"
+          }
+        ]
+      },
+      {
+        "day": "Tuesday",
+        "periods": [
+          {
+            "time": "9:00-10:00",
+            "subject": "CO",
+            "teacher": "Apurva Sir",
+            "room": "Room 101"
+          },
+          {
+            "time": "10:00-11:00",
+            "subject": "CO",
+            "teacher": "Apurva Sir",
+            "room": "Room 102"
+          },
+          {
+            "time": "11:15-12:15",
+            "subject": "CO",
+            "teacher": "Apurva Sir",
+            "room": "Room 103"
+          },
+          {
+            "time": "12:15-1:15",
+            "subject": "CO",
+            "teacher": "Apurva Sir",
+            "room": "Room 104"
+          },
+          {
+            "time": "2:00-3:00",
+            "subject": "CO",
+            "teacher": "Apurva Sir",
+            "room": "Room 105"
+          },
+          {
+            "time": "3:00-4:00",
+            "subject": "CO",
+            "teacher": "Apurva Sir",
+            "room": "Room 106"
+          }
+        ]
+      },
+      {
+        "day": "Wednesday",
+        "periods": [
+          {
+            "time": "9:00-10:00",
+            "subject": "CO",
+            "teacher": "Apurva Sir",
+            "room": "Room 101"
+          },
+          {
+            "time": "10:00-11:00",
+            "subject": "CO",
+            "teacher": "Apurva Sir",
+            "room": "Room 102"
+          },
+          {
+            "time": "11:15-12:15",
+            "subject": "CO",
+            "teacher": "Apurva Sir",
+            "room": "Room 103"
+          },
+          {
+            "time": "12:15-1:15",
+            "subject": "CO",
+            "teacher": "Apurva Sir",
+            "room": "Room 104"
+          },
+          {
+            "time": "2:00-3:00",
+            "subject": "CO",
+            "teacher": "Apurva Sir",
+            "room": "Room 105"
+          },
+          {
+            "time": "3:00-4:00",
+            "subject": "CO",
+            "teacher": "Apurva Sir",
+            "room": "Room 106"
+          }
+        ]
+      },
+      {
+        "day": "Thursday",
+        "periods": [
+          {
+            "time": "9:00-10:00",
+            "subject": "CO",
+            "teacher": "Apurva Sir",
+            "room": "Room 101"
+          },
+          {
+            "time": "10:00-11:00",
+            "subject": "CO",
+            "teacher": "Apurva Sir",
+            "room": "Room 102"
+          },
+          {
+            "time": "11:15-12:15",
+            "subject": "CO",
+            "teacher": "Apurva Sir",
+            "room": "Room 103"
+          },
+          {
+            "time": "12:15-1:15",
+            "subject": "CO",
+            "teacher": "Apurva Sir",
+            "room": "Room 104"
+          },
+          {
+            "time": "2:00-3:00",
+            "subject": "CO",
+            "teacher": "Apurva Sir",
+            "room": "Room 105"
+          },
+          {
+            "time": "3:00-4:00",
+            "subject": "CO",
+            "teacher": "Apurva Sir",
+            "room": "Room 106"
+          }
+        ]
+      },
+      {
+        "day": "Friday",
+        "periods": [
+          {
+            "time": "9:00-10:00",
+            "subject": "CO",
+            "teacher": "Apurva Sir",
+            "room": "Room 101"
+          },
+          {
+            "time": "10:00-11:00",
+            "subject": "CO",
+            "teacher": "Apurva Sir",
+            "room": "Room 102"
+          },
+          {
+            "time": "11:15-12:15",
+            "subject": "CO",
+            "teacher": "Apurva Sir",
+            "room": "Room 103"
+          },
+          {
+            "time": "12:15-1:15",
+            "subject": "CO",
+            "teacher": "Apurva Sir",
+            "room": "Room 104"
+          },
+          {
+            "time": "2:00-3:00",
+            "subject": "CO",
+            "teacher": "Apurva Sir",
+            "room": "Room 105"
+          },
+          {
+            "time": "3:00-4:00",
+            "subject": "CO",
+            "teacher": "Apurva Sir",
+            "room": "Room 106"
+          }
+        ]
+      }
+    ]
+  }
+]
