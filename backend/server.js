@@ -407,26 +407,29 @@ app.post('/api/admin/generate-timetable', (req, res) => {
       '3:00-4:00'
     ];
 
-    // Track teacher assignments: { teacherName: { day: [periodIndexes] } }
+    // Track teacher assignments globally: { teacherName: { day: { periodIndex: className } } }
     const teacherSchedule = {};
     teachers.forEach(t => {
       teacherSchedule[t.name] = {};
       days.forEach(day => {
-        teacherSchedule[t.name][day] = [];
+        teacherSchedule[t.name][day] = {};
       });
     });
 
     // Generate timetable for each class
     const timetables = [];
+    
+    // Counter to distribute subjects evenly across periods and days
+    let globalTeacherCounter = 0;
 
-    classes.forEach(className => {
+    classes.forEach((className, classIndex) => {
       const classTimetable = {
         className,
         schedule: []
       };
 
       // Create a schedule for each day
-      days.forEach(day => {
+      days.forEach((day, dayIndex) => {
         const daySchedule = {
           day,
           periods: []
@@ -435,24 +438,31 @@ app.post('/api/admin/generate-timetable', (req, res) => {
         // Assign subjects to periods
         periods.forEach((time, periodIndex) => {
           let assignedTeacher = null;
+          let attempts = 0;
+          const maxAttempts = teachers.length;
           
           // Try to find an available teacher for this period
-          for (let i = 0; i < teachers.length; i++) {
-            const teacher = teachers[i];
+          while (attempts < maxAttempts && !assignedTeacher) {
+            const teacherIndex = (globalTeacherCounter + attempts) % teachers.length;
+            const teacher = teachers[teacherIndex];
             
-            // Check if teacher is already assigned at this time
-            if (!teacherSchedule[teacher.name][day].includes(periodIndex)) {
+            // Check if teacher is already assigned at this time slot
+            if (!teacherSchedule[teacher.name][day][periodIndex]) {
               assignedTeacher = teacher;
-              // Mark this teacher as busy at this time
-              teacherSchedule[teacher.name][day].push(periodIndex);
+              // Mark this teacher as busy at this time for this class
+              teacherSchedule[teacher.name][day][periodIndex] = className;
+              globalTeacherCounter++;
               break;
             }
+            
+            attempts++;
           }
 
-          // If all teachers are busy, use round-robin as fallback
+          // If all teachers are busy at this time, still assign one (conflict scenario)
+          // This happens when there are more classes than teachers
           if (!assignedTeacher) {
-            const teacherIndex = periodIndex % teachers.length;
-            assignedTeacher = teachers[teacherIndex];
+            const fallbackIndex = (periodIndex + dayIndex + classIndex) % teachers.length;
+            assignedTeacher = teachers[fallbackIndex];
           }
 
           daySchedule.periods.push({
